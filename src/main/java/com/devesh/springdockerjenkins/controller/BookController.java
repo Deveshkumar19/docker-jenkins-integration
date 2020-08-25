@@ -14,7 +14,8 @@ public class BookController {
     public List<Book> getBook(){
 
         return Arrays.asList(
-                new Book("Java","devesh",300)
+                new Book("Java","devesh",300),
+                new Book("J2ee","deveshkr",700)
         );
     }
 }
